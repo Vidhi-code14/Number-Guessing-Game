@@ -1,0 +1,116 @@
+html {
+    font-family: 'Arial', sans-serif;
+    background-color: #9f8e2b;
+    /* Softer background for overall contrast */
+}
+
+body {
+    width: 700px;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    /* Clean white body */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.516);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.lastResult,
+.guesses {
+    color: #333333;
+    padding: 10px;
+    background-color: #e0e0e0;
+    /* Subtle background contrast */
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #6a5acd;
+    color: #ffffff;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #5b4cbf;
+    /* Slightly darker shade on hover */
+}
+
+#subt {
+    background-color: #4caf50;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#subt:hover {
+    background-color: #43a047;
+    /* Green hover effect */
+}
+
+#guessField {
+    color: #333333;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: 2px solid #cccccc;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+#guess {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #6a5acd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.guesses {
+    background-color: #f0f0f5;
+}
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+    height: auto;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 20px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    background-color: #6a5acd;
+    font-style: italic;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(28, 7, 7);
+}
